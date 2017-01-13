@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:contentDescription="Click here to Login">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center|clip_horizontal"
+            android:paddingTop="50dp">
+
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/name"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:hint="Name" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/email"
+                android:layout_marginTop="60dp"
+                android:hint="Email Id" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:layout_marginTop="100dp"
+                android:hint="Contact No."
+                android:phoneNumber="true"
+                android:id="@+id/cno" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/dob"
+                android:layout_marginTop="140dp"
+                android:hint="DOB" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/pwd"
+                android:layout_marginTop="180dp"
+                android:hint="Password"
+                android:password="true" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/cpwd"
+                android:layout_marginTop="220dp"
+                android:hint="Confirm Password"
+                android:password="true" />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/register"
+                android:layout_marginTop="290dp"
+                android:background="@android:color/holo_blue_light"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Already Registered? Click Here"
+                android:id="@+id/log_tv"
+                android:layout_marginTop="350dp"
+                android:clickable="true"
+                android:textColor="@android:color/black"
+                />
+        </RelativeLayout>
+
+    </ScrollView>

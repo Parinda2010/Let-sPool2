@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Let\'s Pool</string>
+
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+    <string-array name="pages">
+        <item>Register</item>
+        <item>Login</item>
+        <item>Give a Ride</item>
+        <item>Take a Ride</item>
+    </string-array>
+</resources>
