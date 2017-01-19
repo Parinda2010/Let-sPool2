@@ -3,6 +3,9 @@
 
     <string name="drawer_open">open drawer</string>
     <string name="drawer_close">close drawer</string>
+    <string name="to_location">To (Location)</string>
+    <string name="from_location">From (Location)</string>
+    <string name="time_and_date_of_traveling">Time and Date of Traveling</string>
 
     <string-array name="pages">
         <item>Register</item>

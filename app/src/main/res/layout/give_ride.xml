@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
 
-</RelativeLayout>
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/from"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/from_location"
+        android:gravity="center"
+        android:background="@drawable/edittext_bg"
+        android:layout_margin="20dp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/to"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/to_location"
+        android:gravity="center"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/time_and_date_of_traveling"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="27dp"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_margin="20dp"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:id="@+id/date1"
+            android:inputType="date"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginLeft="50dp"
+
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="Date" />
+
+        <EditText
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/time1"
+            android:layout_weight="0.74"
+            android:background="@drawable/edittext_bg"
+            android:focusable="false"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:hint="Time" />
+    </LinearLayout>
+
+</LinearLayout>
