@@ -6,11 +6,39 @@
     <string name="to_location">To (Location)</string>
     <string name="from_location">From (Location)</string>
     <string name="time_and_date_of_traveling">Time and Date of Traveling</string>
+    <string name="lbl_forgot_password">Password Reset</string>
+    <string name="forgot_password_msg">Please enter your email address.</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back">Back</string>
 
     <string-array name="pages">
-        <item>Register</item>
-        <item>Login</item>
+      <!--  <item>Register</item>
+        <item>Login</item>-->
         <item>Give a Ride</item>
         <item>Take a Ride</item>
+        <item>Logout</item>
     </string-array>
+
+    <string-array name="luggage">
+        <item>None</item>
+        <item>Less</item>
+        <item>Medium</item>
+        <item>More</item>
+    </string-array>
+
+    <string-array name="pickup">
+        <item>None</item>
+        <item>In a 15 mins window</item>
+        <item>In a 30 mins window</item>
+        <item>in a 1h window</item>
+    </string-array>
+
+    <string-array name="detour">
+        <item>None</item>
+        <item>Max 15 mins detour</item>
+        <item>Max 30 mins detour</item>
+        <item>Anything is fine</item>
+    </string-array>
+
 </resources>
